@@ -1,0 +1,77 @@
+/*Services*/
+.container0{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: red;
+  }
+  
+  .services {
+    padding: 5px 0;
+    background-color: #f7f7f7;
+  }
+  
+  .services .section_title h1{
+    font-family: 'Monserrat', sans-serif;
+    color: #222222;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 10px;
+    margin-bottom: 20;
+    text-align: center;
+  }
+  
+  .services .section_title p{
+    font-family: 'Droid Serif', serif;
+    color: #777777;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center  ;
+    
+  }
+  
+  .services_boxs .ser{
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 1px;
+    margin-bottom: 10%;
+  
+  }
+  .services_boxs .ser .imag{
+    font-size: 40px;
+    color: #BC8F8F;
+    border: 3px solid rgba(0,136,169,1) ;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    line-height: 50px;
+  }
+  .services_boxs .ser .titleh1{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #222222;
+  }
+  
+  .services_boxs .ser .paragraph{
+      font-family:'Droid Serif', sans-serif;
+      font-size:14px ;
+      color: #777777;
+  }
+  
+  /*end*/
+
+  /*about*/
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: red;
+        padding: 10px;
+    }
+    .grid-item {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+  /*end*/
