@@ -1,0 +1,164 @@
+/*Nav Bar*/
+.NavBar{
+  background: #2b2424;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px ;
+  
+}
+
+.link_item,.link_item > a{
+  font-weight: 500;
+  font-size: 25px;
+  color: #05b993;
+  text-decoration: none;
+}
+.title_nav{
+  cursor: pointer;
+  color: white;
+ 
+}
+
+.title_nav span{
+  color: #05b993;
+}
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+  text-transform: capitalize;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.link_item a:hover{
+  color: white;
+  background-color: #05b993; 
+  -moz-border-radius: 100px 0px;
+  -webkit-border-radius: 100px 0px;
+  border-radius: 100px 0px;
+  padding: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    flex: 100%;
+  
+  }
+}
+/*end*/
+/*Footer*/
+
+.footer{
+  background: #2b2424;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+    
+}
+.inner-footer{
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footer-items{
+    width: 30%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+h1{
+    padding: 10px 0;
+    font-size:25px;
+    color: #05b993;
+    text-transform: uppercase;
+}
+
+.footer-items p{
+    color: #05b993;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+h2{
+    margin: 10px 0;
+    color: #05b993;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.border{
+    height: 5px;
+    width: 80px;
+    background:  #fff;
+
+}
+
+.links,.contact{
+    list-style: none;
+    color: #05b993;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+ul a{
+    text-decoration: none;
+    outline: none;
+    color: #05b993;
+    transition: 0.3s;
+}
+.links a:hover li{
+    color: #0088a9;
+}
+.links li, .contact li{
+    margin: 10px 0;
+    height: 25px;
+
+}
+li .fontAwsome{
+    margin-right:20px ;
+}
+
+.social-media{
+    width: 100%;
+    color:#fff;
+    text-align: center;
+
+}
+.social-media a{
+    text-decoration: none;
+}
+.social-media i{
+    height: 15px;
+    width: 15px;
+    margin: 30px 5px;
+    color:#fff;
+    
+}
+.footer-bottom{
+    color: #fff;
+    background:#05b993;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center  ;
+}
+/*Fin Footer*/
